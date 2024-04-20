@@ -1,0 +1,58 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+}
+
+.menu {
+  background-color: #002d5a;
+  color: #fff;
+  width: 200px;
+  padding-top: 20px;
+}
+
+.menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu ul li {
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.menu ul li:hover,
+.menu ul li.active {
+  background-color: #007bff;
+}
+
+.submenu {
+  display: none;
+  background-color: #0056b3;
+}
+
+.submenu.active {
+  display: block;
+}
+
+.submenu li {
+  padding: 10px 40px;
+  cursor: pointer;
+}
+
+.submenu li:hover {
+  background-color: #003f7f;
+}
+
+.content {
+  flex: 1;
+  padding: 20px;
+  background-color: #fff;
+  color: #333;
+}
+
+.content p {
+  font-size: 20px;
+  line-height: 1.5;
+}

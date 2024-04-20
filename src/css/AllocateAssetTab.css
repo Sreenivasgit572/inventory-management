@@ -1,0 +1,31 @@
+.allocate-asset-tab {
+    margin-top: 20px;
+  }
+  
+  .input-row {
+    margin-bottom: 10px;
+  }
+  
+  .input-row label {
+    margin-right: 10px;
+  }
+  
+  .asset-list {
+    margin-top: 20px;
+  }
+  
+  .asset-list table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .asset-list th, .asset-list td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  .unallocate-button {
+    margin-top: 20px;
+  }
+  

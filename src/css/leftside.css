@@ -1,0 +1,28 @@
+.left-side-menu {
+    background-color: #f0f0f0;
+    width: 250px;
+    padding: 20px;
+  }
+  
+  .left-side-menu h2 {
+    color: #333;
+  }
+  
+  .left-side-menu ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .left-side-menu li {
+    cursor: pointer;
+    padding: 10px 0;
+    color: #555;
+  }
+  
+  .left-side-menu li:hover {
+    background-color: #ddd;
+  }
+  
+  .left-side-menu li.active {
+    font-weight: bold;
+  }
